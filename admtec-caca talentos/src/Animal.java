@@ -2,7 +2,7 @@ public class Animal {
     String nome;
 
     public Animal(String name) { //constructor
-        String nome = name;
+        this.nome = name;
     }
 
     public static void main(String[] args) {
