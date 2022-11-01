@@ -1,6 +1,7 @@
 public class Animal {
     String nome;
 
+    public Animal(){}
     public Animal(String name) { //constructor
         this.nome = name;
     }
