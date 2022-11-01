@@ -1,13 +1,11 @@
-public class SonsAnimais {
+public abstract class SonsAnimais {
    public String nome;
 
     public SonsAnimais(String nome) {
        this.nome = nome;
    }
 
-   public void somAnimal() {
-      System.out.println("Som do animal");
-   }
+   public abstract void somAnimal();
 
    public static class Gato extends SonsAnimais {
        public Gato(String nome) {
