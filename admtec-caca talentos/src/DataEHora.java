@@ -11,6 +11,6 @@ public class DataEHora {
             System.out.println(hora);
             LocalDateTime dataEHora = LocalDateTime.now();
             System.out.println(dataEHora);
-           
+
         }
 }
